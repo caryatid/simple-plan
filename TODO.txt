@@ -1,0 +1,122 @@
+# chores
+shell tests for dylan and xtina
+    super simple symlinks and filesystem like planning program
+install wireless extenders
+security cameras
+new glasses and eye exam
+get sinks
+new kitty vet
+new bank
+plate up the floor drill for network 
+clean garage
+record want list
+check house for future repairs
+kitty door
+marika car flooding issue
+break down ramp
+new hook for shower rack
+bookshelf for basement
+
+# servers
+QEMU -- manage w/ makefiles?
+    instance management [run state, existence, conversion, etc]
+    data management
+    networks
+        public
+        private
+recording server
+bookmark server
+media server
+image upload server
+git server
+mail server
+plans server
+music private tracker
+
+# programming
+makefile for everywhere tools
+    get
+    compile
+    install
+    push
+    info -- thinking on this may help w/ variable spec
+spec out plans use pattern 
+plans built with C && redis
+automata
+gurgeh
+
+# planning -- maybe this is "stash"
+plan out daily behavior -- cleanliness, exercise, meditation
+plan specific meals 
+plan reading list
+plan sensation vs experience album
+plan and list spanish, french, japanese, movies to learn with
+plan bike camping trip
+plan out woodworking 
+
+# gaming
+zelda
+gaming computer
+il2
+RoF
+
+# learning
+make
+read nethack sources
+haskell book
+category book
+
+# reading
+baudrillard
+critical theory
+erikson books
+ancient greece book
+mishima quad
+
+# garden
+clear pie slice grass
+clear new garden grass
+remove pie slice bushes
+slate or other stone for temporary paths
+clear bushes around quince tree
+half barrels for planting
+move elderberry and fig tree
+arborvitea fence
+hydragea near front door
+edging
+brick patio
+brick paths
+
+# studio
+clean studio
+mic set-up
+sound proofing
+walls and door for studio
+find reel to reel
+studio smoking lounge
+
+# biking
+get travel bike fix bundle together
+set-up schwinn as secondary
+    fix flat
+    fix front derailleur
+    clean bike
+get panniers
+bike fenders
+
+# correspondence
+letter to pops
+write to friends
+
+# writing
+right wing is dada paper
+vault 7 investigation
+hector and hestor :: blue castle red castle
+
+# job
+hiera roles/base finalize
+faux-cdn
+dockerfiles to phusion
+notify plugin
+DNS for everett
+
