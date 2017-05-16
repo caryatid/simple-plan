@@ -1,8 +1,14 @@
 # Simple Plan
 All of this should be done in POSIX shell.
-TODO file should be parsed so that top level directories are created for each line in the todo without indentation
-deeper indentation indicates a child of the highter indentation then that entry becomes a sub file/directory to the one created for the line above.
+TODO file should be parsed so that nesting is indicated by indentation.
+Create directories for every entry with sub entries. Create a file for each entry
+without sub entries. 
 
+## Example 
+"import-plan.sh" is a simple implementation and shows a 
+reasonable output. Run with the "TODO.txt" file as its argument.
+
+# Tasks
 1) take the example format, TODO.txt, and make it into a filesystem structure.
 2) generate a directory of symlinks to all of the files within that 
    filesystem strucuture.
@@ -13,3 +19,4 @@ deeper indentation indicates a child of the highter indentation then that entry 
 6) Does this need its own search or can it simply use grep
 7) perhaps implement some commands to add or remove entries.
    May just switch to plan proper
+8) Makefile
