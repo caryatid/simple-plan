@@ -34,12 +34,12 @@ _parse_note_file () {
     truncate -s 0 $TMP/stack; pwd >$TMP/stack
     local pname=''
     local pdepth=0
+    local h; local depth; local name; local dif;
     while read
     do
-        local depth=$(echo $REPLY | cut -d' ' -f1)
-        local name=$(echo $REPLY | cut -d' ' -f2-)
-        local dif=$(( $depth - $pdepth ))
-        echo $depth $dif $name
+        depth=$(echo $REPLY | cut -d' ' -f1)
+        name=$(echo $REPLY | cut -d' ' -f2-)
+        dif=$(( $depth - $pdepth ))
         case $dif in
         0)
             _make_leaf "$name"
@@ -48,7 +48,7 @@ _parse_note_file () {
         1)
             if test -f "$pname"
             then 
-                local h=$(_gen_hash | cut -c-7)
+                h=$(_gen_hash | cut -c-7)
                 mv "$pname" "${pname}_${h}"
                 mkdir -p "$pname"; mv "${pname}_${h}" "${pname}"
             fi
