@@ -7,7 +7,7 @@ top-level
     tl.level 1 c
         tl.level 2 c a
         tl.level 2 c b
-            tl.level 4 a
+            tl.level 3 a
 
 top-level 2
     tl.level 1 a
@@ -18,7 +18,7 @@ top-level 2
     tl.level 1 c
         tl.level 2 c a
         tl.level 2 c b
-            tl.level 4 a
+            tl.level 3 a
     tl.level 1 d
         tl.level 2 d a
         tl.level 2 d b

@@ -1,7 +1,14 @@
 #!/bin/sh
 
 # create new file to store todo
+TMP=$(mktemp -d)
+trap 'rm -Rf $TMP' EXIT
+
 # dir name == file name
+
+# for each line in file
+# use line contents as file name
+
 
 # file cleaning
 # should this clean the text?
