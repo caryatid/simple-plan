@@ -35,10 +35,10 @@ _parse_note_file () {
     local pname=''
     local pdepth=0
     local h; local depth; local name; local dif;
-    while read
+    while read entry
     do
-        depth=$(echo $REPLY | cut -d' ' -f1)
-        name=$(echo $REPLY | cut -d' ' -f2-)
+        depth=$(echo $entry | cut -d' ' -f1)
+        name=$(echo $entry | cut -d' ' -f2-)
         dif=$(( $depth - $pdepth ))
         case $dif in
         0)
