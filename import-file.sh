@@ -4,9 +4,9 @@ trap 'rm -Rf $TMP' EXIT
 
 # convert to directory nodes; file leaves.
 
-
 seed=$(dd if=/dev/urandom bs=255 count=1 2>/dev/null | tr \\0 \ )
 count=0
+
 _gen_hash () {
     echo -n $count$seed | sha1sum | cut -d' ' -f1 | tr -d '\n'
     count=$(( $count + 1 ))
